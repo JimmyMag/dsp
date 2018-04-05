@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+pwd - show current working directory path
+mkdir - create a directory
+rmdir - remove empty directory
+touch *file* - creates *file*
+rm - removes file
+mv *old* *new* - renames a file
+ls -a - all files in directory
+cp *target* *destination* - copies files
+cd *directory* - navigate to specified directory
+man *command* - opens the manual for the specified command
 
 ---
 
@@ -35,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls - list directory contents
+ls -a - do not ignore entries starting with .
+ls -l - use a long listing format
+ls -lh - print sizes in human readable format
+ls -lah - print sizes in human readable format, including entries starting with .
+ls -t - sort by modification time
+ls -Glp - long listing without printing group names, appending / indicator to directories
 
 ---
 
@@ -43,7 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -r - reverse order when sorting
+ls -R - list subdirectories recursively
+ls -s - sort by file size
+ls -U - do not sort
+ls -B - do not list implied entries ending with ~
 
 ---
 
@@ -51,7 +70,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+Build and execute command lines from standard input.  For example, the command line arguments could be imported and run from a file instead of being typed into the command line individually.
 
  
 
